@@ -157,8 +157,7 @@
 								return;
 
 							// Cancel original event.
-								event.preventDefault();
-								event.stopPropagation();
+								
 
 							// Hide panel.
 								$this._hide();
