@@ -281,20 +281,7 @@
 
 				});
 
-		// Window.
-
-			// Event: Hide on ESC.
-				if (config.hideOnEscape)
-					$window.on('keydown', function(event) {
-
-						if (event.keyCode == 27)
-							$this._hide(event);
-
-					});
-
-		return $this;
-
-	};
+	
 
 	/**
 	 * Apply "placeholder" attribute polyfill to one or more forms.
