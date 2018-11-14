@@ -165,6 +165,15 @@ pre-course quiz (worth 10% of your overall course grade) before our first in-cla
 			
 		<script>	if (top.location!= self.location) {
    top.location = self.location.href; </script>
+						
+<script>
+    $(function() {
+        var ifr = $("iframe");
+        ifr.attr("scrolling", "no");
+        ifr.attr("src", ifr.attr("src"));
+    });
+</script>
+		
 
 
 			
